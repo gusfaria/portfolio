@@ -2,7 +2,7 @@
 
 <div id="project_wrapper">
       <header>
-            <img src="img/psychic2_main.jpg">
+            <img src="img/psychic_main.gif">
       </header>
       <section id="work_content">
             <article id="work_details">

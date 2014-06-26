@@ -16,9 +16,9 @@
                         <h4 class="tool">Spacebrew</h4>
                         <h4 class="tool">Illustrator</h4>
                   </div>
-                  <p>Spacebrew is an open, dynamically re-routable, software toolkit for choreographing interactive devices. The idea of this project was to create an extension for Spacebrew, in which we made it possible to connect a Bluetooth(BLE) device to this toolkit.</p>
-                  <p>Spaceblue Box is a demo using this new Spacebrew extension that reads information sent via BLE into a node app, and sends that information to Processing, via Spacebrew, to create a musical intruments that is able to recognize the device and changes to pitch according to the intesity (distance) of the BLE signal.</p>
-                  <p>This project was done in a collaboration with Jennifer Presto. Check out the links below to know more about this project.</p>
+                  <p>Spacebrew is an open, dynamically re-routable, software toolkit for choreographing interactive devices. Spaceblue is a Spacebrew based application that enables connection between Bluetooth Low Energy (BLE) devices and the Spacebrew toolkit environment.</p>
+                  <p>Spaceblue Box is a digital instrument that communicates with a Processing application to create sound and image. Spaceblue can identify connected BLE devices and their signal strengths to determine the pitch and frequency of the sound. </p>
+                  <p>This project was made in collaboration with <a style="color: #448eb0" href="http://jenniferpresto.com/" target="_blank">Jennifer Presto</a>. Checkout our <a style="color: #448eb0" target="_blank" href="https://github.com/jenniferpresto/SpaceBlue">code</a> at Github, and our <a style="color: #448eb0" target="_blank" href="http://docs.spacebrew.cc/tutorials/2014/5/7/arduino-ble-shield-spacebrew">tutorial</a> in the Spacebrew website.</p>
             </article>
             <article id="work_imgs">
                   <div class="video_container">
@@ -28,9 +28,9 @@
             </article>
       </section>
       <footer class="project_footer" style="background: #4c9ec4">
-            <a target="_blank" href="https://github.com/jenniferpresto/SpaceBlue">Fork our github page</a>
+            <a target="_blank" href="https://github.com/jenniferpresto/SpaceBlue">Fork our Github page</a>
       </footer>
       <footer class="project_footer" style="background: #448eb0">
-            <a target="_blank" href="http://docs.spacebrew.cc/tutorials/2014/5/7/arduino-ble-shield-spacebrew">Check the tutorial</a>
+            <a target="_blank" href="http://docs.spacebrew.cc/tutorials/2014/5/7/arduino-ble-shield-spacebrew">Checkout Spaceblue tutorial</a>
       </footer>
 </div>

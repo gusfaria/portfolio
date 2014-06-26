@@ -13,9 +13,8 @@
                         <h4 class="tool">Javascript</h4>
                         <h4 class="tool">Illustrator</h4>
                   </div>
-                  <p>A browser plug-in that puts a face to the name of who is tracking a user (who they are, what they are browsing– basically pulling back the curtain on the people watching you).</p>
-                  <p>This project is a collaboration with <a href="http://trytobegood.com/" target="_blank" style="color:#74ccd0;">Fei Liu</a> and <em style="color:#74ccd0;">Scott Powell</em>. The team created a Chrome extension together with a website, that can be seen <a href="http://www.totoknows.com/"target="_blank" style="color:#74ccd0;">here</em></a>.</p> 
-                  <p>Toto team started on the 2013 Ghostery "Hack the Trackers" Hackathon and is currently competing for the first prize. You can learn more about the event by clicking <a href="https://purplebox.ghostery.com/post/1016023790" target="_blank" style="color:#74ccd0;">here</a> and <a href="http://adage.com/article/privacy-and-regulation/ghostery-throws-hack-create-privacy-technologies/74ccd0/" target="_blank" style="color:#74ccd0;">here</a>. 
+                  <p>Toto is a plug-in that puts a face to the name of who is tracking a user (who they are, what they are browsing– basically pulling back the curtain on the people watching you). The project consists of a website and chrome extension.</p>
+                  <p>Toto Knows was born from the collaboration with <a href="http://trytobegood.com/" target="_blank" style="color:#ee632f;">Fei Liu</a> and Scott Powell for <a href="http://hackthetrackers.tumblr.com/" target="_blank" style="color:#ee632f;">Ghostery's "Hack the Trackers" Hackathon</a> competition. Toto team won the competition and as prize got the opportunity to showcase the project at SXSW 2014.</p>
             </article>
             <article id="work_imgs">
                   <div class="video_container">

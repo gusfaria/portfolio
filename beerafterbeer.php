@@ -15,7 +15,7 @@
                         <h4 class="tool">Illustrator</h4>
                   </div>
                   <p>Beer After Beer is a website dedicated to everyone's favorite fermented friend. It takes in information from Pint Labs' BreweryDB and displays it in a stylish and accessible manner.</p>
-                  <p>Beer After Beer was developed by Gustavo Faria and <a href="http://owenherterich.com/" target="_blank" style="color:#ea6045;">Owen Herterich</a>, two beer drinkers and designers trying to share their love with the world.</p>
+                  <p>Beer After Beer was developed in collaboration with <a href="http://owenherterich.com/" target="_blank" style="color:#ea6045;">Owen Herterich</a> a fellow beer enthusiast and designer.</p>
             </article>
             <article id="work_imgs">
                   <img src="img/beerafterbeer_01.gif">

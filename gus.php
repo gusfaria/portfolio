@@ -21,7 +21,8 @@
                                     <h4 class="tool">Twitter Bootstrap</h4>
                                     <h4 class="tool">Xively API</h4>
                               </div>
-                              <p>The process to wake up is so individual and yet so difficult sometimes. So, why not make it collaborative? Why not develop something that would allow your friends to help you get up? GUS allow you to sleep in peace, knowing that your friends have your back whenever your alarm clock fails to wake you up!</p>
+                              <p>The process of waking up is very personal and difficult sometimes. Why not make it collaborative? Why not develop a system that would allow your friends to help you get up? GUS allows you to sleep in peace, knowing that your friends have your back whenever your alarm clock fails to wake you up.</p>
+                              <p>GUS is paired with a responsive web application and a multisensory pillow packed with vibrating motors, small speakers, and pressure sensors.</p>
                         </article>
                         <article id="work_imgs">
                               <div class="video_container">
