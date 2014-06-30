@@ -361,9 +361,11 @@ nav#main_nav{
 section#about{
 	overflow: hidden;
 	width: 50%;
+	height: auto;
 	margin: auto;
 	margin-bottom: 20px;
 	margin-top: 5px;
+	display: none;
 	font-weight: 400;
 	font-style: italic;
 	font-size: 1.5vw;
@@ -372,17 +374,12 @@ section#about{
 
 	text-align: center;
 	opacity: 0.7;
-	transition:ALL 2s;
 }
 
 section#about p{
 	margin-bottom: 20px;
 }
 
-.hide{
-	height: 0px;
-	transition: ALL 2s;
-}
 
 .highlight{
 	font-weight: bolder;

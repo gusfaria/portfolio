@@ -1,12 +1,12 @@
-            <?php include_once 'includes/nav.php'; ?>
-<!--        <nav id="main_nav">
+
+            <nav id="main_nav" class="nav_work">
                   <ul id="nav_list">
-                        <li><a id = "navLogo" href="#about"><h1>GUSTAVO-FARIA</h1></a></li> 
-                        <li class="link"><a id="btn_about" class = "navAbout" href="#about">ABOUT</a></li>
-                        <li class="link"><a class = "navWork" href="#work">WORK</a></li>
-                        <li class="link"><a class = "navBlog" href="http://www.gusfaria.com/blog/">BLOG</a></li>
+                        <li><a id = "navLogo" href="http://www.gusfaria.com"><h1>GUSTAVO-FARIA</h1></a></li> 
+                        <li class="link"><a class="navAbout" href="http://localhost/portfolio/#main">ABOUT</li>
+                        <li class="link"><a class="navWork" href="http://localhost/portfolio/#section_work">WORK</a></li>
+                        <li class="link"><a class ="navBlog" href="http://www.gusfaria.com/blog/">BLOG</a></li>
                   </ul>
-            </nav> -->
+            </nav>
             <section id="main">
 			<article id="logo_wrapper">
 				<div id="triangle">
