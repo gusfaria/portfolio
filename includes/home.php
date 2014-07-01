@@ -1,12 +1,14 @@
-
-            <nav id="main_nav" class="nav_work">
+            
+            <?php include_once 'includes/nav.php'; ?>
+            
+         <!--    <nav id="main_nav" class="nav_work">
                   <ul id="nav_list">
                         <li><a id = "navLogo" href="http://www.gusfaria.com"><h1>GUSTAVO-FARIA</h1></a></li> 
                         <li class="link"><a class="navAbout" href="http://localhost/portfolio/#main">ABOUT</li>
                         <li class="link"><a class="navWork" href="http://localhost/portfolio/#section_work">WORK</a></li>
                         <li class="link"><a class ="navBlog" href="http://www.gusfaria.com/blog/">BLOG</a></li>
                   </ul>
-            </nav>
+            </nav> -->
             <section id="main">
 			<article id="logo_wrapper">
 				<div id="triangle">
@@ -19,7 +21,7 @@
 
                         </div>
                         <img src="img/logo.png">
-                        <section id="about" class="hide">
+                        <section id="about">
                               <p>HELLO, MY NAME IS GUSTAVO. I AM A NEW YORK BASED UX DESIGNER + FRONT-END DEVELOPER. I RECENTLY GOT MY MASTER DEGREE FROM PARSON’S DESIGN AND TECHNOLOGY. </p>
                               <p>IF YOU WANT TO KNOW MORE ABOUT MY WORK, EMAIL ME: <span class="highlight" style="font-style:bolder;">HELLO@GUSFARIA.COM</span></p>
                         </section>
