@@ -32,7 +32,7 @@ div#container{
 	section#main{
 		background: linear-gradient(to bottom right, #E6E6E6, #B3B3B3);
 		background: -moz-linear-gradient:(to bottom right, #E6E6E6, #B3B3B3);
-		padding: 15% 0 13% 0;
+		padding: 12% 0;
 		width: 100%; 
 		text-align: center;
 		display: fixed;
@@ -398,6 +398,47 @@ nav#main_nav{
 		}
 
 
+/*//svgs*/
+article#links{ 
+	text-align: center;
+}
+
+svg.links {
+  fill: transparent;
+  stroke: #555;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  animation: draw 12s ease;
+  	  -webkit-animation: draw 12s ease;
+	  -moz-animation: draw 12s ease;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  transition: .5s;
+}
+
+/*.twitter {
+  margin-left: -3px;
+}*/
+
+.links:hover{
+    fill: #555;
+}
+
+
+/*//animations*/
+@keyframes draw {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 
 @-webkit-keyframes rot{
 	from{
@@ -421,17 +462,30 @@ nav#main_nav{
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
+@-webkit-keyframes dash{
+  from {
+    stroke-dashoffset: 340;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@-moz-keyframes dash {
+  from {
+    stroke-dashoffset: 340;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 340;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 /*  media query  */
 @media (max-width: 640px) and (min-width: 300px)  {
@@ -546,49 +600,22 @@ nav#main_nav{
 
 	header{ 
 		padding-top: 40px;
-/*		position: fixed;
-		top: 0;
-		text-align: center;
-		width: 100%;
-		min-height: auto;
-		margin: 0 auto;
-		overflow:hidden;
-		z-index:-1;
-		background: black;
-		align-items: center;
-		justify-content: center;
-		vertical-align: middle;*/
     }
 		header img {		}
 		header .header_container {		}
 
 	section#work_content{
-/*		width: 100%;
-		
-		margin: 0 auto; */
 		padding: 50px 0 20px 0;
 		width: 100%;
-		margin-top: 210px;
+		margin-top: 190px;
 		padding-top: 20px;
 		display: block;
-/*		display: flex;	
-		display: -webkit-box;      
-		display: -ms-flexbox;      
-		display: -webkit-flex;
-
-		background: linear-gradient(to bottom right, #E6E6E6, #B3B3B3);
-
-		-webkit-box-shadow: 2px -21px 38px -1px rgba(0,0,0,0.45);
-		-moz-box-shadow: 2px -21px 38px -1px rgba(0,0,0,0.45);
-		box-shadow: 2px -21px 38px -1px rgba(0,0,0,0.45);*/
 	}
 
 	article#work_details{
-		/*color: black;*/
 		width: 100%;
 		display: block;
 		padding: 0 10px; 
-		/*padding-right: 3px;*/ 
 		margin-bottom: 20px;
 	}
 
@@ -598,19 +625,9 @@ nav#main_nav{
 
 		article#work_details h3{
 			font-size: 20px;
-			/*font-weight: 100;*/
 		}	
-		
-		/*article#work_details div.toolbox{
-			width: 100%;
-			padding: 10px 0; 
-		}*/
-
 
 		div.toolbox h4{
-			/*display: inline-table;*/
-			/*padding: 4px;*/
-			/*border: 1px solid black;*/
 			margin: 3px 0; 
 			font-size: 15px; 
 		}
@@ -627,10 +644,8 @@ nav#main_nav{
 	}
 
 	article#work_imgs img{
-		/*width: 900px;*/
 		width: 100%; 
 		display: block;
-/*		border: #676767 solid 3px;*/	
 		border: none;
 		margin-bottom: 15px;
 	}
@@ -654,88 +669,18 @@ nav#main_nav{
 	}
 
 	footer.project_footer{
-		/*background: #4D4D4D;
-		width: 100%;
-		padding: 10px 0;
-		text-align: center;*/
+
 	}
 
 	footer.project_footer a:link{
-		/*color: black;
-		text-decoration: none;*/
 		font-size: 15px;
 		font-weight: 300; 
 		opacity: 0.4;
 	}
-
-	/*footer.project_footer a:visited{ color: black;}
-	footer.project_footer a:after{
-			 margin-left: 10px;
-			 font-family: 'icomoon';
-			 content:' \e600';
-			 transition:ALL 0.5s;
-	}
-	footer.project_footer a:hover:after{
-		margin-left: 20px;
-	}*/
-
 }
 
 
-
-/*//delete this after using*/
-
-
-
-/*//delete this after using*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@-webkit-keyframes dash{
-  from {
-    stroke-dashoffset: 340;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@-moz-keyframes dash {
-  from {
-    stroke-dashoffset: 340;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes dash {
-  from {
-    stroke-dashoffset: 340;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
+/*//misc.*/
 @-moz-document url-prefix() { 
 	section#section_work ul#work_list li img{
 		margin-bottom: -6px; /*margin-bottom: -4px;*/ 
@@ -749,8 +694,5 @@ nav#main_nav{
 		top: 45%;
 	}
 }
-
-
-
 
 
