@@ -309,10 +309,10 @@ nav#main_nav{
 				padding-right: 2%; 
 			}
 				article#work_details h2{
-					font-size: 3vw;
+					font-size: 3.2vw;
 			}
 				article#work_details h3{
-					font-size: 1.5vw;
+					font-size: 2vw;
 					font-weight: 100;
 				}	
 				article#work_details div.toolbox{
@@ -324,11 +324,11 @@ nav#main_nav{
 						padding: 4px;
 						border: 1px solid black;
 						margin: 5px 0; 
-						font-size: 1.0vw; 
+						font-size: 1.2vw; 
 					}
 
 				article#work_details p{
-					font-size: 1vw;
+					font-size: 14px;
 					margin-top: 20px;
 				}
 			article#work_imgs{
@@ -388,7 +388,7 @@ nav#main_nav{
 	footer#main_footer	{
 		font-family: "Gotham", Helvetica, sans-serif;
 		text-align: center;
-		font-size: 1vw;
+		font-size: 12px;
 		background: black;
 		color: #4D4D4D;
 		width: 100%;
@@ -488,6 +488,22 @@ svg.links {
 }
 
 /*  media query  */
+@media (max-width: 860px) and (min-width: 640px)  {
+
+	/* work list */
+	section#section_work ul#work_list li.each_work{
+		width: 50%;
+		overflow: hidden;	
+	}
+	div.work_detail p.worktitle{
+		font-size: 22px;
+	}
+	div.work_detail p.worksubtitle{
+		font-size: 16px;
+	}
+
+}
+
 @media (max-width: 640px) and (min-width: 300px)  {
 	/*nav*/
 	nav#main_nav{
