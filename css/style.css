@@ -98,7 +98,6 @@ nav#main_nav{
 
 	nav#main_nav ul#nav_list{
 	  	height: 60px; 
-		
 		display: flex;
 		display: -webkit-box;      
 		/*display: -moz-box;*/         /* OLD - Firefox 19- (buggy but mostly works) */
@@ -488,8 +487,11 @@ svg.links {
 }
 
 /*  media query  */
-@media (max-width: 860px) and (min-width: 640px)  {
+@media (max-width: 840px) and (min-width: 641px)  {
 
+a#navLogo h1{ 
+	background-size: 100%;
+}
 	/* work list */
 	section#section_work ul#work_list li.each_work{
 		width: 50%;
